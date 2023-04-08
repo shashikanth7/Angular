@@ -1,3 +1,4 @@
+// 1 st code-------------------------------------
 /*prime number
 function mult(arr) {
     let res = arr.map(function(number) {
@@ -26,7 +27,8 @@ function mult(arr) {
   let arr = [1, 2, 3, 4];
   console.log(mult(arr)); // [2, 3]
   */
- //uppercase 2 nd 
+
+ //uppercase 2 nd code--------------------------------------------------------------------------
  /*function upperst(arry){
     arry=["shashi","ghost","death"]
     let e=arry.map(function(n1){
@@ -63,10 +65,28 @@ console.log(upperst(arry));
   console.log(f)
 }
 sumofString();*/
+//5 th code------------------------------------------------
+/*class Student {
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+  }
+}
+
+const students = [
+  new Student("rakesh", 75),
+  new Student("shashikanth", 82),
+  new Student("lokesh", 90),
+  new Student("srishanth",99)];
+const highestScore = Math.max(...students.map((student) => student.score));
+const topStudents = students.filter((student) => student.score === highestScore);
+console.log(topStudents.map((student) => student.name));
+*/
+
 //---------------------------------------------------------------------------------------------------
 //6 th
 
-
+/*
 
 function convertNegativesToPositives(arry) {
   return arry.map(function(n) {
@@ -81,4 +101,17 @@ function convertNegativesToPositives(arry) {
 let arry = [-2, 7, -5, -8, 23, 6];
 console.log(convertNegativesToPositives(arry)); // should log [2, 7, 5, 8, 23, 6]
 
-
+//7 th code-------------------------------------------------------------------------------------
+class Student {
+    constructor(name, score) {
+      this.name = name;
+      this.score = score;
+    }
+  }
+  const students = [
+    new Student("Odelu", 75),
+    new Student("shashikanth", 82),
+    new Student("kousiii", 90),
+    new Student("Ranjini",99)];
+const passedStudents = students.filter((student) => student.score > 70);
+  console.log(passedStudents.map((student) => student.name)); //
